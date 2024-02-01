@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&display=swap');
+@import 'boxicons';
+
+body {
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Hide scroll bar for chrome, safari and opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
