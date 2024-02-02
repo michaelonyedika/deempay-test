@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,10 +12,10 @@ const Home = () => {
                     font-extrabold font-sans text-center lg:text-5xl lg:text-left 
                     lg:leading-tight mb-5"
           >
-            A small business is only as good as it's tools
+            A small business is only as good as it&apos;s tools
           </h1>
           <p className=" max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md">
-            We're different. DeemPay is the only Fintech business platform that
+            We&apos;re different. DeemPay is the only Fintech business platform that
             let you run your business payments transactions on one platform
           </p>
 
@@ -43,7 +44,7 @@ const Home = () => {
         </div>
 
         <div className=" lg:w-1/2">
-          <img src="/deempay_img_2.png" alt="hero-img" className=" ml-auto rounded-t-lg" />
+          <Image src="/deempay_img_2.png" alt="hero-img" className=" ml-auto rounded-t-lg" width={100} height={100} />
         </div>
       </div>
     </section>

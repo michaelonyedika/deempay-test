@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -15,7 +16,7 @@ const HeroNav = () => {
       <div className="container md:px-12 md:flex md:items-center md:justify-between">
         <div className=" flex items-center justify-between">
           <Link href="/" className=" flex items-center">
-            <img src="/deempay_logo.svg" alt="Logo" className=" h-10 mr-3" />
+            <Image src="/deempay_logo.svg" alt="Logo" className=" h-10 mr-3" width={100} height={100} />
             {/* <span className=" text-2xl text-gray-900 font-sans font-bold">
               DeemPay
             </span> */}
