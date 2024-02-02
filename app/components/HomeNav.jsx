@@ -8,7 +8,7 @@ const Home = () => {
       <div className=" container flex flex-wrap items-center mx-auto mt-10 md:px-12 md:flex-row">
         <div className=" mb-14 lg:mb-0 lg:w-1/2">
           <h1
-            className=" max-w-xl text-[2.9rem] leading-none text-gray-900 
+            className=" max-w-xl text-[2.8rem] leading-none text-gray-900 
                     font-extrabold font-sans text-center lg:text-5xl lg:text-left 
                     lg:leading-tight mb-5"
           >
@@ -44,7 +44,7 @@ const Home = () => {
         </div>
 
         <div className=" lg:w-1/2">
-          <Image src="/deempay_img_2.png" alt="hero-img" className=" ml-auto rounded-t-lg" width={100} height={100} />
+          <Image src="/deempay_img_2.png" alt="hero-img" className=" ml-auto rounded-t-lg" width={500} height={500} />
         </div>
       </div>
     </section>

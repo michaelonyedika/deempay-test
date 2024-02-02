@@ -2,8 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {
-  FaCopyright,
-  FaHeart,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
@@ -17,7 +15,7 @@ const FooterHome = () => {
         <div className=" p-5">
           <ul>
             <Link href="/" className=" flex items-center pb-6">
-              <Image src="/deempay_logo.svg" alt="Logo" className=" h-10 mr-3" width={100} height={100} />
+              <Image src="/deempay_logo.svg" alt="Logo" className=" h-10 mr-3" width={150} height={100} />
             </Link>
 
             <div className=" flex gap-6 pb-5">
